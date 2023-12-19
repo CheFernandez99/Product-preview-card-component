@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding: 0;
+}
+section{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    width:100%;
+    background: hsl(32, 38%, 84%);
+}
+.imgDiv{
+    
+    height: fit-content;
+   margin-top: 5px;
+   
+}
+#perfumeImg{
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+.rightCard{
+    background: rgb(255, 255, 255);
+    height: 400px;
+    width: 300px;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+.Perfume{
+    font-family:Montserrat;
+    font-weight:400;
+    margin: 10%;
+    display: block;
+    color: rgba(0, 0, 0, 0.629);
+}
+h2{
+    margin:10%;
+    font-family: Fraunces;
+}
+p{
+    margin-left: 10%;
+    margin-bottom: 5%;
+    font-family: Montserrat;
+    font-weight:400;
+    color:rgba(0, 0, 0, 0.702);
+}
+.bigGreenNum{
+    margin: 10%;
+    font-family: Fraunces;
+    font-weight: 700;
+    font-size: xx-large;
+    color: hsl(157, 36%, 37%);
+}
+.lineThrough{
+    font-family: Fraunces;
+    text-decoration: line-through;
+    color:rgba(0, 0, 0, 0.674);
+}
+button{
+ width: 200px;
+ border: none;
+ padding: 5%;
+ background: hsl(157, 36%, 37%); 
+ font-family:Montserrat ;
+ color: white;
+ font-weight:bold;
+ border-radius: 0.5rem;
+}
+#cart{
+    margin-right: 10%;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   margin-top: 5%;
+   
+}
+button:hover{
+ background: hsl(158, 36%, 28%);
+}
+.attribution{
+    background:  hsl(32, 38%, 84%);
+}
+@media screen and (max-width:768px){
+    section{
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+    }
+    #perfumeImg{
+        border-radius: 0.5rem 0.5rem 0 0;
+       height: 300px;
+
+    }
+    .imgDiv{
+        height: 200px;
+
+
+}
+.rightCard{
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+}
